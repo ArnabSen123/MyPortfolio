@@ -3,10 +3,45 @@
     padding: 0;
 }
 .main{
-    background-color: yellow;
+    /*background-color: yellow;*/
     width: 90vw;
 }
 .container{
     display: flex;
+}
 
+.infocontainer{
+    /*background-color: blue;*/
+    height: 78vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 65px;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.about{
+    font-size: 40px;
+}
+
+.buttons button{
+
+}
+.devpic img{
+    height: 78vh;
 }
