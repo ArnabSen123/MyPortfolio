@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: yellow;
+    width: 90vw;
+}
+.container{
+    display: flex;
+
+}
