@@ -11,8 +11,8 @@
 }
 
 .infocontainer{
-    /*background-color: blue;*/
-    height: 78vh;
+    background-color: blue;
+    height: 58vh;
     width: 80vw;
     margin: 144px auto;
     display: flex;
@@ -39,9 +39,31 @@
     font-size: 40px;
 }
 
-.buttons button{
+.moreabout{
+    font-size: 22px;
+    margin-top: 23px;
 
 }
+
+.buttons{
+    margin-top: 34px;
+}
+
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: rgb(237, 181, 181);
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
 .devpic img{
-    height: 78vh;
+    height: 58vh;
 }
