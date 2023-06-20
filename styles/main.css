@@ -20,33 +20,35 @@
 }
 
 .devinfo{
+    font-size: 16px;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
 .hello{
-    font-size: 65px;
+    font-size: 3em;
 }
 
 .name{
-    font-size: 50px;
+    font-size: 3em;
     font-weight: bold;
 
 }
 
 .about{
-    font-size: 40px;
+    font-size: 2.5em;
 }
 
 .moreabout{
-    font-size: 22px;
+    font-size: 2em;
     margin-top: 23px;
 
 }
 
 .buttons{
     margin-top: 34px;
+    font-size: 16px;
 }
 
 .btn{
@@ -55,8 +57,8 @@
     color: rgb(237, 181, 181);
     background-color: dodgerblue;
     font-weight: bold;
-    font-size: 21px;
-    margin: 0 3px;
+    font-size: 2em;
+    margin: 3px 3px;
     cursor: pointer;
 }
 
@@ -64,6 +66,7 @@
     background-color: white;
     color: dodgerblue;
 }
+
 .devpic img{
     height: 58vh;
 }
